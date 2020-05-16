@@ -1,6 +1,6 @@
 C_FLAGS =  -I
 NAME = asm
-SRCS = main.c parse.c
+SRCS = main.c parse.c clear_file.c getters.c
 ##-Wall -Werror -Wextra
 OBJECTS = $(SRCS:.c=.o)
 LIBFT = ft_printf/

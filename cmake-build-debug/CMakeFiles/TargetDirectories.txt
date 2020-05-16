@@ -1,3 +1,3 @@
-/Users/ib/cxim/workspace/asm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/ib/cxim/workspace/asm/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/ib/cxim/workspace/asm/cmake-build-debug/CMakeFiles/asm.dir
+/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles/testasm.dir

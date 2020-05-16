@@ -29,5 +29,8 @@ typedef struct		s_data
 
 int 	get_clean_str(t_data *data, char **str);
 void	free_str(char **s, char ***arr, int i);
+void	choose_do(t_data *data, char *tmp);
+void	get_name_comment(t_data *data, char *str, int flag);
+void	get_labels(t_data *data, char *str);
 
 #endif //ASM_ASM_H

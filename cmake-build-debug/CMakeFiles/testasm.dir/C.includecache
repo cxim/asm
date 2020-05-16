@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ib/cxim/workspace/testasm/asm.h
+ft_printf/includes/printf.h
+/Users/ib/cxim/workspace/testasm/ft_printf/includes/printf.h
+op.h
+/Users/ib/cxim/workspace/testasm/op.h
+
+/Users/ib/cxim/workspace/testasm/ft_printf/includes/libft/libft.h
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+fcntl.h
+-
+
+/Users/ib/cxim/workspace/testasm/ft_printf/includes/printf.h
+stdio.h
+-
+unistd.h
+-
+stdarg.h
+-
+fcntl.h
+-
+libft/libft.h
+/Users/ib/cxim/workspace/testasm/ft_printf/includes/libft/libft.h
+
+/Users/ib/cxim/workspace/testasm/main.c
+asm.h
+/Users/ib/cxim/workspace/testasm/asm.h
+
+/Users/ib/cxim/workspace/testasm/op.h
+

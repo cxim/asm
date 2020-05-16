@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(asm C)
+project(testasm C)
 
 set(CMAKE_C_STANDARD 11)
 
@@ -7,7 +7,7 @@ include_directories(.)
 include_directories(ft_printf/includes)
 include_directories(ft_printf/includes/libft)
 
-add_executable(asm
+add_executable(testasm
         ft_printf/includes/libft/ft_atoi.c
         ft_printf/includes/libft/ft_bzero.c
         ft_printf/includes/libft/ft_char_in_string.c
@@ -120,6 +120,7 @@ add_executable(asm
         ft_printf/srcs/work_with_x_big.c
         asm.h
         clear_file.c
+        getters.c
         main.c
         op.h
         parse.c)

@@ -32,3 +32,23 @@ int 	get_clean_str(t_data *data, char **str)
 	free_str(&tmp, &arr, 2);
 	return (ret);
 }
+
+void	choose_do(t_data *data, char *tmp)
+{
+	char	**arr;
+
+	if (ft_strchr(tmp, COMMENT_CHAR))
+		arr = ft_split(tmp, COMMENT_CHAR);
+	else
+		arr = ft_split(tmp, ALT_COMMENT_C);
+	if (ft_strlen(tmp) > 0 && tmp[0] != COMMENT_CHAR && tmp[0] != ALT_COMMENT_C)
+	{
+		if (ft_strncmp(arr[0], NAME_CMD_STRING, ft_strlen(NAME_CMD_STRING)) == 0)
+			get_name_comment(data, arr[0], 1);
+		else if (ft_strncmp(arr[0], COMMENT_CMD_STRING, ft_strlen(COMMENT_CMD_STRING)) == 0)
+			get_name_comment(data, arr[0], 2);
+		else
+			get_labels(data, arr[0]);
+	}
+	free_str(NULL, &arr, 0);
+}
