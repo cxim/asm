@@ -434,6 +434,15 @@
 		<Unit filename="/Users/ib/cxim/workspace/testasm/parse.c">
 			<Option target="testasm"/>
 		</Unit>
+		<Unit filename="/Users/ib/cxim/workspace/testasm/setters.c">
+			<Option target="testasm"/>
+		</Unit>
+		<Unit filename="/Users/ib/cxim/workspace/testasm/work_w_lable_instrct.c">
+			<Option target="testasm"/>
+		</Unit>
+		<Unit filename="/Users/ib/cxim/workspace/testasm/work_with_str.c">
+			<Option target="testasm"/>
+		</Unit>
 		<Unit filename="/Users/ib/cxim/workspace/testasm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

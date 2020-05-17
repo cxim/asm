@@ -379,3 +379,21 @@ CMakeFiles/testasm.dir/parse.c.o: ../ft_printf/includes/printf.h
 CMakeFiles/testasm.dir/parse.c.o: ../op.h
 CMakeFiles/testasm.dir/parse.c.o: ../parse.c
 
+CMakeFiles/testasm.dir/setters.c.o: ../asm.h
+CMakeFiles/testasm.dir/setters.c.o: ../ft_printf/includes/libft/libft.h
+CMakeFiles/testasm.dir/setters.c.o: ../ft_printf/includes/printf.h
+CMakeFiles/testasm.dir/setters.c.o: ../op.h
+CMakeFiles/testasm.dir/setters.c.o: ../setters.c
+
+CMakeFiles/testasm.dir/work_w_lable_instrct.c.o: ../asm.h
+CMakeFiles/testasm.dir/work_w_lable_instrct.c.o: ../ft_printf/includes/libft/libft.h
+CMakeFiles/testasm.dir/work_w_lable_instrct.c.o: ../ft_printf/includes/printf.h
+CMakeFiles/testasm.dir/work_w_lable_instrct.c.o: ../op.h
+CMakeFiles/testasm.dir/work_w_lable_instrct.c.o: ../work_w_lable_instrct.c
+
+CMakeFiles/testasm.dir/work_with_str.c.o: ../asm.h
+CMakeFiles/testasm.dir/work_with_str.c.o: ../ft_printf/includes/libft/libft.h
+CMakeFiles/testasm.dir/work_with_str.c.o: ../ft_printf/includes/printf.h
+CMakeFiles/testasm.dir/work_with_str.c.o: ../op.h
+CMakeFiles/testasm.dir/work_with_str.c.o: ../work_with_str.c
+

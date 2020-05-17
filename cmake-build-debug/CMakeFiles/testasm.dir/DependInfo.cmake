@@ -116,6 +116,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ib/cxim/workspace/testasm/getters.c" "/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles/testasm.dir/getters.c.o"
   "/Users/ib/cxim/workspace/testasm/main.c" "/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles/testasm.dir/main.c.o"
   "/Users/ib/cxim/workspace/testasm/parse.c" "/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles/testasm.dir/parse.c.o"
+  "/Users/ib/cxim/workspace/testasm/setters.c" "/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles/testasm.dir/setters.c.o"
+  "/Users/ib/cxim/workspace/testasm/work_w_lable_instrct.c" "/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles/testasm.dir/work_w_lable_instrct.c.o"
+  "/Users/ib/cxim/workspace/testasm/work_with_str.c" "/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles/testasm.dir/work_with_str.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

@@ -379,3 +379,21 @@ CMakeFiles/testasm.dir/parse.c.o
  /Users/ib/cxim/workspace/testasm/ft_printf/includes/printf.h
  /Users/ib/cxim/workspace/testasm/op.h
  /Users/ib/cxim/workspace/testasm/parse.c
+CMakeFiles/testasm.dir/setters.c.o
+ /Users/ib/cxim/workspace/testasm/asm.h
+ /Users/ib/cxim/workspace/testasm/ft_printf/includes/libft/libft.h
+ /Users/ib/cxim/workspace/testasm/ft_printf/includes/printf.h
+ /Users/ib/cxim/workspace/testasm/op.h
+ /Users/ib/cxim/workspace/testasm/setters.c
+CMakeFiles/testasm.dir/work_w_lable_instrct.c.o
+ /Users/ib/cxim/workspace/testasm/asm.h
+ /Users/ib/cxim/workspace/testasm/ft_printf/includes/libft/libft.h
+ /Users/ib/cxim/workspace/testasm/ft_printf/includes/printf.h
+ /Users/ib/cxim/workspace/testasm/op.h
+ /Users/ib/cxim/workspace/testasm/work_w_lable_instrct.c
+CMakeFiles/testasm.dir/work_with_str.c.o
+ /Users/ib/cxim/workspace/testasm/asm.h
+ /Users/ib/cxim/workspace/testasm/ft_printf/includes/libft/libft.h
+ /Users/ib/cxim/workspace/testasm/ft_printf/includes/printf.h
+ /Users/ib/cxim/workspace/testasm/op.h
+ /Users/ib/cxim/workspace/testasm/work_with_str.c

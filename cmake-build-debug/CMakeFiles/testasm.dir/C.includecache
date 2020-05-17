@@ -12,6 +12,10 @@ ft_printf/includes/printf.h
 op.h
 /Users/ib/cxim/workspace/testasm/op.h
 
+/Users/ib/cxim/workspace/testasm/clear_file.c
+asm.h
+/Users/ib/cxim/workspace/testasm/asm.h
+
 /Users/ib/cxim/workspace/testasm/ft_printf/includes/libft/libft.h
 unistd.h
 -
@@ -34,9 +38,29 @@ fcntl.h
 libft/libft.h
 /Users/ib/cxim/workspace/testasm/ft_printf/includes/libft/libft.h
 
+/Users/ib/cxim/workspace/testasm/getters.c
+asm.h
+/Users/ib/cxim/workspace/testasm/asm.h
+
 /Users/ib/cxim/workspace/testasm/main.c
 asm.h
 /Users/ib/cxim/workspace/testasm/asm.h
 
 /Users/ib/cxim/workspace/testasm/op.h
+
+/Users/ib/cxim/workspace/testasm/parse.c
+asm.h
+/Users/ib/cxim/workspace/testasm/asm.h
+
+/Users/ib/cxim/workspace/testasm/setters.c
+asm.h
+/Users/ib/cxim/workspace/testasm/asm.h
+
+/Users/ib/cxim/workspace/testasm/work_w_lable_instrct.c
+asm.h
+/Users/ib/cxim/workspace/testasm/asm.h
+
+/Users/ib/cxim/workspace/testasm/work_with_str.c
+asm.h
+/Users/ib/cxim/workspace/testasm/asm.h
 

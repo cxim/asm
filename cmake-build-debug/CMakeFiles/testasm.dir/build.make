@@ -1513,6 +1513,45 @@ CMakeFiles/testasm.dir/parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testasm.dir/parse.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ib/cxim/workspace/testasm/parse.c -o CMakeFiles/testasm.dir/parse.c.s
 
+CMakeFiles/testasm.dir/setters.c.o: CMakeFiles/testasm.dir/flags.make
+CMakeFiles/testasm.dir/setters.c.o: ../setters.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/testasm.dir/setters.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testasm.dir/setters.c.o   -c /Users/ib/cxim/workspace/testasm/setters.c
+
+CMakeFiles/testasm.dir/setters.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testasm.dir/setters.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ib/cxim/workspace/testasm/setters.c > CMakeFiles/testasm.dir/setters.c.i
+
+CMakeFiles/testasm.dir/setters.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testasm.dir/setters.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ib/cxim/workspace/testasm/setters.c -o CMakeFiles/testasm.dir/setters.c.s
+
+CMakeFiles/testasm.dir/work_w_lable_instrct.c.o: CMakeFiles/testasm.dir/flags.make
+CMakeFiles/testasm.dir/work_w_lable_instrct.c.o: ../work_w_lable_instrct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/testasm.dir/work_w_lable_instrct.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testasm.dir/work_w_lable_instrct.c.o   -c /Users/ib/cxim/workspace/testasm/work_w_lable_instrct.c
+
+CMakeFiles/testasm.dir/work_w_lable_instrct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testasm.dir/work_w_lable_instrct.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ib/cxim/workspace/testasm/work_w_lable_instrct.c > CMakeFiles/testasm.dir/work_w_lable_instrct.c.i
+
+CMakeFiles/testasm.dir/work_w_lable_instrct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testasm.dir/work_w_lable_instrct.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ib/cxim/workspace/testasm/work_w_lable_instrct.c -o CMakeFiles/testasm.dir/work_w_lable_instrct.c.s
+
+CMakeFiles/testasm.dir/work_with_str.c.o: CMakeFiles/testasm.dir/flags.make
+CMakeFiles/testasm.dir/work_with_str.c.o: ../work_with_str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/testasm.dir/work_with_str.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testasm.dir/work_with_str.c.o   -c /Users/ib/cxim/workspace/testasm/work_with_str.c
+
+CMakeFiles/testasm.dir/work_with_str.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testasm.dir/work_with_str.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ib/cxim/workspace/testasm/work_with_str.c > CMakeFiles/testasm.dir/work_with_str.c.i
+
+CMakeFiles/testasm.dir/work_with_str.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testasm.dir/work_with_str.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ib/cxim/workspace/testasm/work_with_str.c -o CMakeFiles/testasm.dir/work_with_str.c.s
+
 # Object files for target testasm
 testasm_OBJECTS = \
 "CMakeFiles/testasm.dir/ft_printf/includes/libft/ft_atoi.c.o" \
@@ -1626,7 +1665,10 @@ testasm_OBJECTS = \
 "CMakeFiles/testasm.dir/clear_file.c.o" \
 "CMakeFiles/testasm.dir/getters.c.o" \
 "CMakeFiles/testasm.dir/main.c.o" \
-"CMakeFiles/testasm.dir/parse.c.o"
+"CMakeFiles/testasm.dir/parse.c.o" \
+"CMakeFiles/testasm.dir/setters.c.o" \
+"CMakeFiles/testasm.dir/work_w_lable_instrct.c.o" \
+"CMakeFiles/testasm.dir/work_with_str.c.o"
 
 # External object files for target testasm
 testasm_EXTERNAL_OBJECTS =
@@ -1743,9 +1785,12 @@ testasm: CMakeFiles/testasm.dir/clear_file.c.o
 testasm: CMakeFiles/testasm.dir/getters.c.o
 testasm: CMakeFiles/testasm.dir/main.c.o
 testasm: CMakeFiles/testasm.dir/parse.c.o
+testasm: CMakeFiles/testasm.dir/setters.c.o
+testasm: CMakeFiles/testasm.dir/work_w_lable_instrct.c.o
+testasm: CMakeFiles/testasm.dir/work_with_str.c.o
 testasm: CMakeFiles/testasm.dir/build.make
 testasm: CMakeFiles/testasm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Linking C executable testasm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ib/cxim/workspace/testasm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Linking C executable testasm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testasm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

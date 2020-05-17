@@ -4,35 +4,7 @@
 
 #include "asm.h"
 
-int		on_line(char *str)
-{
-	int 	i;
-	int 	counter;
 
-	i = (int)ft_strlen(str);
-	counter = 0;
-	while (i > 0 && counter < 2)
-	{
-		i--;
-		if (str[i] == '"')
-			counter++;
-	}
-	if (counter > 1)
-		return (1);
-	else if (counter > 0)
-		return (0);
-	else
-		return (-1);
-}
-
-void	add_line(char **str)
-{
-	char 	*tmp;
-
-	tmp = ft_strjoin(*str, "\n");
-	free_str(str, NULL, 1);
-	*str = tmp;
-}
 
 void	check_lenght(char *str, int flag)
 {
@@ -76,7 +48,7 @@ void	get_name_comment(t_data *data, char *str, int flag)
 	tmp = ft_split(str, '"');
 	line = on_line(str);
 	if (line == -1)
-		exit(ft_printf("ERROR, no quotes (line %d)\n ", data->line));
+		exit(ft_printf("ERROR, no quotes (line %d)\n", data->line));
 	if (tmp[1])
 		str = ft_strdup(tmp[1]);
 	else
@@ -95,7 +67,42 @@ void	get_name_comment(t_data *data, char *str, int flag)
 	free_str(NULL, &tmp, 0);
 }
 
-void	get_labels(t_data *data, char *str)
+int 	get_instrctn(t_data *data, char **str, int inst_id, int str_len)
 {
-	exit(printf("lol"));
+	t_oper		*op;
+
+	if (inst_id == 0)
+		return (0);
+	if (str_len < 2)
+		exit(ft_printf("ERROR: no arguments in line %d\n", data->line));
+	op = set_instrctn(data, inst_id, 1);
+	//get_argums(op, &str[1], str_len - 1, data);
+	set_oper_size(op);
+	data->total += op->size;
+	return (op->pozz);
+}
+
+int		get_labels(t_data *data, char *str)
+{
+	char 	**tmp;
+	char 	*str_space;
+	int		i;
+	int		ret;
+
+	str_space = add_spaces(&str);
+	tmp = ft_strsplit_whitespace(str_space);
+	free_str(&str_space, NULL, 1);
+	i = 0;
+	while (tmp[i])
+		i++;
+	ret = 0;
+	if (is_label(tmp[0]))
+		ret = get_label(data, tmp, i);
+	else if (is_instrctn(tmp[0]) != 0)
+		ret = get_instrctn(data, tmp, is_instrctn(tmp[0]), i);
+	else if (str[0] != '#')
+		exit(ft_printf("ERROR: could't read line %d (%s)\n", data->line, str));
+	free_str(NULL, &tmp, 0);
+	//exit(1);
+	return (ret);
 }

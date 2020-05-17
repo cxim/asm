@@ -111,6 +111,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/testasm.dir/getters.c.o"
   "CMakeFiles/testasm.dir/main.c.o"
   "CMakeFiles/testasm.dir/parse.c.o"
+  "CMakeFiles/testasm.dir/setters.c.o"
+  "CMakeFiles/testasm.dir/work_w_lable_instrct.c.o"
+  "CMakeFiles/testasm.dir/work_with_str.c.o"
   "testasm"
   "testasm.pdb"
 )

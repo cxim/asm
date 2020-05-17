@@ -3147,6 +3147,87 @@ parse.c.s:
 	$(MAKE) -f CMakeFiles/testasm.dir/build.make CMakeFiles/testasm.dir/parse.c.s
 .PHONY : parse.c.s
 
+setters.o: setters.c.o
+
+.PHONY : setters.o
+
+# target to build an object file
+setters.c.o:
+	$(MAKE) -f CMakeFiles/testasm.dir/build.make CMakeFiles/testasm.dir/setters.c.o
+.PHONY : setters.c.o
+
+setters.i: setters.c.i
+
+.PHONY : setters.i
+
+# target to preprocess a source file
+setters.c.i:
+	$(MAKE) -f CMakeFiles/testasm.dir/build.make CMakeFiles/testasm.dir/setters.c.i
+.PHONY : setters.c.i
+
+setters.s: setters.c.s
+
+.PHONY : setters.s
+
+# target to generate assembly for a file
+setters.c.s:
+	$(MAKE) -f CMakeFiles/testasm.dir/build.make CMakeFiles/testasm.dir/setters.c.s
+.PHONY : setters.c.s
+
+work_w_lable_instrct.o: work_w_lable_instrct.c.o
+
+.PHONY : work_w_lable_instrct.o
+
+# target to build an object file
+work_w_lable_instrct.c.o:
+	$(MAKE) -f CMakeFiles/testasm.dir/build.make CMakeFiles/testasm.dir/work_w_lable_instrct.c.o
+.PHONY : work_w_lable_instrct.c.o
+
+work_w_lable_instrct.i: work_w_lable_instrct.c.i
+
+.PHONY : work_w_lable_instrct.i
+
+# target to preprocess a source file
+work_w_lable_instrct.c.i:
+	$(MAKE) -f CMakeFiles/testasm.dir/build.make CMakeFiles/testasm.dir/work_w_lable_instrct.c.i
+.PHONY : work_w_lable_instrct.c.i
+
+work_w_lable_instrct.s: work_w_lable_instrct.c.s
+
+.PHONY : work_w_lable_instrct.s
+
+# target to generate assembly for a file
+work_w_lable_instrct.c.s:
+	$(MAKE) -f CMakeFiles/testasm.dir/build.make CMakeFiles/testasm.dir/work_w_lable_instrct.c.s
+.PHONY : work_w_lable_instrct.c.s
+
+work_with_str.o: work_with_str.c.o
+
+.PHONY : work_with_str.o
+
+# target to build an object file
+work_with_str.c.o:
+	$(MAKE) -f CMakeFiles/testasm.dir/build.make CMakeFiles/testasm.dir/work_with_str.c.o
+.PHONY : work_with_str.c.o
+
+work_with_str.i: work_with_str.c.i
+
+.PHONY : work_with_str.i
+
+# target to preprocess a source file
+work_with_str.c.i:
+	$(MAKE) -f CMakeFiles/testasm.dir/build.make CMakeFiles/testasm.dir/work_with_str.c.i
+.PHONY : work_with_str.c.i
+
+work_with_str.s: work_with_str.c.s
+
+.PHONY : work_with_str.s
+
+# target to generate assembly for a file
+work_with_str.c.s:
+	$(MAKE) -f CMakeFiles/testasm.dir/build.make CMakeFiles/testasm.dir/work_with_str.c.s
+.PHONY : work_with_str.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -3492,6 +3573,15 @@ help:
 	@echo "... parse.o"
 	@echo "... parse.i"
 	@echo "... parse.s"
+	@echo "... setters.o"
+	@echo "... setters.i"
+	@echo "... setters.s"
+	@echo "... work_w_lable_instrct.o"
+	@echo "... work_w_lable_instrct.i"
+	@echo "... work_w_lable_instrct.s"
+	@echo "... work_with_str.o"
+	@echo "... work_with_str.i"
+	@echo "... work_with_str.s"
 .PHONY : help
 
 
