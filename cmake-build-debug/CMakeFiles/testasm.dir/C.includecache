@@ -6,17 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/ib/cxim/workspace/testasm/asm.h
+/Users/student/Desktop/testasm/asm.h
 ft_printf/includes/printf.h
-/Users/ib/cxim/workspace/testasm/ft_printf/includes/printf.h
+/Users/student/Desktop/testasm/ft_printf/includes/printf.h
 op.h
-/Users/ib/cxim/workspace/testasm/op.h
+/Users/student/Desktop/testasm/op.h
 
-/Users/ib/cxim/workspace/testasm/clear_file.c
-asm.h
-/Users/ib/cxim/workspace/testasm/asm.h
-
-/Users/ib/cxim/workspace/testasm/ft_printf/includes/libft/libft.h
+/Users/student/Desktop/testasm/ft_printf/includes/libft/libft.h
 unistd.h
 -
 stdlib.h
@@ -26,7 +22,7 @@ string.h
 fcntl.h
 -
 
-/Users/ib/cxim/workspace/testasm/ft_printf/includes/printf.h
+/Users/student/Desktop/testasm/ft_printf/includes/printf.h
 stdio.h
 -
 unistd.h
@@ -36,31 +32,11 @@ stdarg.h
 fcntl.h
 -
 libft/libft.h
-/Users/ib/cxim/workspace/testasm/ft_printf/includes/libft/libft.h
+/Users/student/Desktop/testasm/ft_printf/includes/libft/libft.h
 
-/Users/ib/cxim/workspace/testasm/getters.c
+/Users/student/Desktop/testasm/getters.c
 asm.h
-/Users/ib/cxim/workspace/testasm/asm.h
+/Users/student/Desktop/testasm/asm.h
 
-/Users/ib/cxim/workspace/testasm/main.c
-asm.h
-/Users/ib/cxim/workspace/testasm/asm.h
-
-/Users/ib/cxim/workspace/testasm/op.h
-
-/Users/ib/cxim/workspace/testasm/parse.c
-asm.h
-/Users/ib/cxim/workspace/testasm/asm.h
-
-/Users/ib/cxim/workspace/testasm/setters.c
-asm.h
-/Users/ib/cxim/workspace/testasm/asm.h
-
-/Users/ib/cxim/workspace/testasm/work_w_lable_instrct.c
-asm.h
-/Users/ib/cxim/workspace/testasm/asm.h
-
-/Users/ib/cxim/workspace/testasm/work_with_str.c
-asm.h
-/Users/ib/cxim/workspace/testasm/asm.h
+/Users/student/Desktop/testasm/op.h
 

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/testasm.dir/argums.c.o"
   "CMakeFiles/testasm.dir/clear_file.c.o"
   "CMakeFiles/testasm.dir/ft_printf/includes/libft/ft_atoi.c.o"
   "CMakeFiles/testasm.dir/ft_printf/includes/libft/ft_bzero.c.o"
