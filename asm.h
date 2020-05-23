@@ -10,7 +10,25 @@
 
 # define ALT_COMMENT_C ';'
 # define MAX_ARG 3
+# define A 200
+# define B 610
+# define C 150
+# define D 111
+# define E 111
+# define F 771
+# define G 771
+# define H 771
+# define I 200
+# define J 731
+# define K 173
+# define L 200
+# define M 610
+# define N 731
+# define O 200
+# define P 100
 # define ARGS_QTY_SIZE (int[]){0, 1, 2, 2, 3, 3, 3, 3, 3, 1, 3, 3, 1, 2, 3, 1, 1}
+# define ARGS_TYPES (int[]){0, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P}
+# define OCTAL (int[]){0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1}
 
 typedef struct		s_oper
 {

@@ -2,6 +2,30 @@
 // Created by student on 20.0
 
 #include "asm.h"
+int		set_arg(t_oper *op, char *arg, int arg_nb, int allowed_t)
+{
+
+}
+
+int		set_argums(t_oper *op, char **clean_str, int allowed_t, int args_qty_s)
+{
+	int 	i;
+
+	i = 0;
+	while (i + args_qty_s < MAX_ARG)
+	{
+		allowed_t /= 10;
+		i++;
+	}
+	while (args_qty_s > 0)
+	{
+		args_qty_s--;
+		if (set_arg(op, clean_str[args_qty_s], args_qty_s, allowed_t % 10) < 0)
+			return (-1);
+		allowed_t /= 10;
+	}
+	return (1);
+}
 
 void	split_argums(char **ret, char ***tmp, int argc, int line_nb)
 {
@@ -39,6 +63,7 @@ char	**cleaning_str(int argc, char **argv, int line_nb)
 		exit(ft_printf("ERROR: MAX_ARG value is not valid\n"));
 	ret = (char**)ft_memalloc(sizeof(char*)  * (MAX_ARG + 1));
 	tmp = (char***)ft_memalloc(sizeof(char**) * (argc + 1));
+	i = 0;
 	while (i < argc)
 	{
 		tmp[i] = ft_split(argv[i], ',');
@@ -57,11 +82,16 @@ int 	get_argums(t_oper *op, char **argv, int argc, t_data *data)
 	int		allowed_types;
 
 	clean_str = cleaning_str(argc, argv, data->line);
-	int j = 0;
-	while (clean_str[j])
-	{
-		printf("%s", clean_str[j]);
-		j++;
-	}
+	i = 0;
+	while (clean_str[i] != NULL)
+		i++;
+	args_qty_size = ARGS_QTY_SIZE[op->instrctn_id];
+	if (i != args_qty_size)
+		exit(ft_printf("ERROR: wrong argum amount (line %d)\n", data->line));
+	allowed_types = ARGS_TYPES[op->instrctn_id];
+	if (set_argums(op, clean_str, allowed_types, args_qty_size) < 0)
+		exit(ft_printf("ERROR: an argum is not valid(line %d)\n", data->line));
+	op->octet *= OCTAL[op->instrctn_id];
+	free_str(NULL, &clean_str, 0);
 	return 0;
 }
