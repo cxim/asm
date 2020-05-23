@@ -6,19 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/ib/cxim/workspace/asmgit/asm/argums.c
-asm.h
-/Users/ib/cxim/workspace/asmgit/asm/asm.h
-
 /Users/ib/cxim/workspace/asmgit/asm/asm.h
 ft_printf/includes/printf.h
 /Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/printf.h
 op.h
 /Users/ib/cxim/workspace/asmgit/asm/op.h
-
-/Users/ib/cxim/workspace/asmgit/asm/clear_file.c
-asm.h
-/Users/ib/cxim/workspace/asmgit/asm/asm.h
 
 /Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/libft/libft.h
 unistd.h
@@ -42,29 +34,9 @@ fcntl.h
 libft/libft.h
 /Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/libft/libft.h
 
-/Users/ib/cxim/workspace/asmgit/asm/getters.c
-asm.h
-/Users/ib/cxim/workspace/asmgit/asm/asm.h
-
-/Users/ib/cxim/workspace/asmgit/asm/main.c
-asm.h
-/Users/ib/cxim/workspace/asmgit/asm/asm.h
-
 /Users/ib/cxim/workspace/asmgit/asm/op.h
 
 /Users/ib/cxim/workspace/asmgit/asm/parse.c
-asm.h
-/Users/ib/cxim/workspace/asmgit/asm/asm.h
-
-/Users/ib/cxim/workspace/asmgit/asm/setters.c
-asm.h
-/Users/ib/cxim/workspace/asmgit/asm/asm.h
-
-/Users/ib/cxim/workspace/asmgit/asm/work_w_lable_instrct.c
-asm.h
-/Users/ib/cxim/workspace/asmgit/asm/asm.h
-
-/Users/ib/cxim/workspace/asmgit/asm/work_with_str.c
 asm.h
 /Users/ib/cxim/workspace/asmgit/asm/asm.h
 

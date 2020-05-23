@@ -13,6 +13,8 @@ int 	get_clean_str(t_data *data, char **str)
 
 	ret = get_next_line(data->fd_r, &s);
 	tmp = ft_strtrim(s);
+	printf("%s\n", s);
+	printf("%s\n", s);
 	free_str(&s, NULL, 1);
 	if (tmp == NULL || ft_strlen(tmp) == 0)
 	{

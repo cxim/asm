@@ -29,6 +29,10 @@
 # define ARGS_QTY_SIZE (int[]){0, 1, 2, 2, 3, 3, 3, 3, 3, 1, 3, 3, 1, 2, 3, 1, 1}
 # define ARGS_TYPES (int[]){0, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P}
 # define OCTAL (int[]){0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1}
+# define ALLOWED_CHARS_ARG "abcdefghijklmnopqrstuvwxyz_0123456789-:%"
+# define ALLOWED_CHARS_DIR "0123456789-"
+# define T_DIR_SIZE (int[]){0, 4, 4, 4, 4, 4, 4, 4, 4, 2, 2, 2, 2, 4, 2, 2, 4}
+
 
 typedef struct		s_oper
 {
@@ -88,5 +92,6 @@ int 	get_instrctn(t_data *data, char **str, int inst_id, int id);
 void	set_oper_size(t_oper *op);
 t_oper	*set_instrctn(t_data *data, int inst_id, int op_id);
 int 	get_argums(t_oper *op, char **argv, int argc, t_data *data);
+t_data	*get_data(t_data *data);
 
 #endif //ASM_ASM_H

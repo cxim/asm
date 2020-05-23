@@ -77,10 +77,10 @@ int 	get_instrctn(t_data *data, char **str, int inst_id, int str_len)
 		exit(ft_printf("ERROR: no arguments in line %d\n", data->line));
 	op = set_instrctn(data, inst_id, 1);
 	int i = 0;
-	while (str[i]) {
-		printf("%s\n", str[i]);
-		i++;
-	}
+//	while (str[i]) {
+//		printf("%s\n", str[i]);
+//		i++;
+//	}
 	get_argums(op, &str[1], str_len - 1, data);
 	set_oper_size(op);
 	data->total += op->size;
