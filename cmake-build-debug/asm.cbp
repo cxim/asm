@@ -92,6 +92,9 @@
 		<Unit filename="/Users/ib/cxim/workspace/asmgit/asm/asm.h">
 			<Option target="asm"/>
 		</Unit>
+		<Unit filename="/Users/ib/cxim/workspace/asmgit/asm/checker.c">
+			<Option target="asm"/>
+		</Unit>
 		<Unit filename="/Users/ib/cxim/workspace/asmgit/asm/clear_file.c">
 			<Option target="asm"/>
 		</Unit>

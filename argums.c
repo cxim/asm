@@ -47,18 +47,19 @@ int 	check_type_in(char *arg)
 
 void	set_arg_val(t_oper *op, char *arg, int arg_nb, int arg_type)
 {
-	int 	flag;
+	int 	offset;
 	t_data	*data;
 
 	data = get_data(NULL);
 	if (arg_type == 1 || arg_type == 2)
-		flag = 1;
+		offset = 1;
 	else
-		flag = 2;
-	if (arg_type > 0 && (ft_strlen(&arg[flag]) < 1 || (arg[flag] == '-' && (ft_strlen(&arg[flag]) < 2 || ft_strlen(&arg[flag]) > 11)) ||
-		ft_strlen(&arg[flag]) > 10))
-		exit(ft_printf("ERROR: argum '%s' is invalid (line %d)\n", arg, data->line));
-	op->argum[arg_nb] = ft_atoi(&arg[flag]) * (arg_type > 0);
+		offset = 0;
+	if (arg_type > 0 && (ft_strlen(&arg[offset]) < 1 ||
+		(arg[offset] == '-' && (ft_strlen(&arg[offset]) < 2
+		|| ft_strlen(&arg[offset]) > 11)) || ft_strlen(&arg[offset]) > 10))
+		exit(ft_printf("ERROR: argument '%s' is invalid (line %d)\n", arg, data->line));
+	op->argum[arg_nb] = ft_atoi(&arg[offset]) * (arg_type > 0);
 	if (arg_type < 0)
 		arg_type = -arg_type;
 	op->octet = op->octet | (arg_type << (6 - 2 * arg_nb));

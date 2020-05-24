@@ -120,6 +120,7 @@ add_executable(asm
 		ft_printf/srcs/work_with_x_big.c
 		argums.c
 		asm.h
+		checker.c
 		clear_file.c
 		getters.c
 		main.c

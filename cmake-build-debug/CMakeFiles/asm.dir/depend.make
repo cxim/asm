@@ -7,6 +7,12 @@ CMakeFiles/asm.dir/argums.c.o: ../ft_printf/includes/libft/libft.h
 CMakeFiles/asm.dir/argums.c.o: ../ft_printf/includes/printf.h
 CMakeFiles/asm.dir/argums.c.o: ../op.h
 
+CMakeFiles/asm.dir/checker.c.o: ../asm.h
+CMakeFiles/asm.dir/checker.c.o: ../checker.c
+CMakeFiles/asm.dir/checker.c.o: ../ft_printf/includes/libft/libft.h
+CMakeFiles/asm.dir/checker.c.o: ../ft_printf/includes/printf.h
+CMakeFiles/asm.dir/checker.c.o: ../op.h
+
 CMakeFiles/asm.dir/clear_file.c.o: ../asm.h
 CMakeFiles/asm.dir/clear_file.c.o: ../clear_file.c
 CMakeFiles/asm.dir/clear_file.c.o: ../ft_printf/includes/libft/libft.h

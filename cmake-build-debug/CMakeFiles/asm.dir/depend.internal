@@ -7,6 +7,12 @@ CMakeFiles/asm.dir/argums.c.o
  /Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/libft/libft.h
  /Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/printf.h
  /Users/ib/cxim/workspace/asmgit/asm/op.h
+CMakeFiles/asm.dir/checker.c.o
+ /Users/ib/cxim/workspace/asmgit/asm/asm.h
+ /Users/ib/cxim/workspace/asmgit/asm/checker.c
+ /Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/libft/libft.h
+ /Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/printf.h
+ /Users/ib/cxim/workspace/asmgit/asm/op.h
 CMakeFiles/asm.dir/clear_file.c.o
  /Users/ib/cxim/workspace/asmgit/asm/asm.h
  /Users/ib/cxim/workspace/asmgit/asm/clear_file.c

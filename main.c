@@ -4,6 +4,7 @@
 
 #include "asm.h"
 
+
 t_data	*get_data(t_data *data)
 {
 	static t_data *s_data = 0;
@@ -44,6 +45,23 @@ int		main(int argc, char** argv)
 		exit(ft_printf("Error: file %s could't be read\n", argv[argc - 1]) != 0); //исправить на 2 поток вывод
 	conversion(data);
 
+//	t_label *tmp = data->label;
+//	t_oper *tm = data->op;
+//	int i;
+//	while (tm)
+//	{
+//		i = -1;
+//		while (++i < 3)
+//			printf("%d %d %d %d", tm->argum_size[i], tm->argum[i], tm->argum_type[i], tm->argum_is_label[i]);
+//		printf("\n");
+//		tm = tm->next;
+//	}
+//	while (tmp)
+//	{
+//		//printf("%s\n", tmp->name, );
+//		tmp = tmp->next;
+//	}
+	check_all(data);
 
 	exit(123);
 	return (0);

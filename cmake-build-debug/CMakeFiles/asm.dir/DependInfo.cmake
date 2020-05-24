@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/ib/cxim/workspace/asmgit/asm/argums.c" "/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles/asm.dir/argums.c.o"
+  "/Users/ib/cxim/workspace/asmgit/asm/checker.c" "/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles/asm.dir/checker.c.o"
   "/Users/ib/cxim/workspace/asmgit/asm/clear_file.c" "/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles/asm.dir/clear_file.c.o"
   "/Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/libft/ft_atoi.c" "/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles/asm.dir/ft_printf/includes/libft/ft_atoi.c.o"
   "/Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/libft/ft_bzero.c" "/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles/asm.dir/ft_printf/includes/libft/ft_bzero.c.o"

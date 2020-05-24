@@ -150,6 +150,33 @@ argums.c.s:
 	$(MAKE) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/argums.c.s
 .PHONY : argums.c.s
 
+checker.o: checker.c.o
+
+.PHONY : checker.o
+
+# target to build an object file
+checker.c.o:
+	$(MAKE) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/checker.c.o
+.PHONY : checker.c.o
+
+checker.i: checker.c.i
+
+.PHONY : checker.i
+
+# target to preprocess a source file
+checker.c.i:
+	$(MAKE) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/checker.c.i
+.PHONY : checker.c.i
+
+checker.s: checker.c.s
+
+.PHONY : checker.s
+
+# target to generate assembly for a file
+checker.c.s:
+	$(MAKE) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/checker.c.s
+.PHONY : checker.c.s
+
 clear_file.o: clear_file.c.o
 
 .PHONY : clear_file.o
@@ -3267,6 +3294,9 @@ help:
 	@echo "... argums.o"
 	@echo "... argums.i"
 	@echo "... argums.s"
+	@echo "... checker.o"
+	@echo "... checker.i"
+	@echo "... checker.s"
 	@echo "... clear_file.o"
 	@echo "... clear_file.i"
 	@echo "... clear_file.s"

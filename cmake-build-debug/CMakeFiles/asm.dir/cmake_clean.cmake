@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/asm.dir/argums.c.o"
+  "CMakeFiles/asm.dir/checker.c.o"
   "CMakeFiles/asm.dir/clear_file.c.o"
   "CMakeFiles/asm.dir/ft_printf/includes/libft/ft_atoi.c.o"
   "CMakeFiles/asm.dir/ft_printf/includes/libft/ft_bzero.c.o"

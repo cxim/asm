@@ -1474,9 +1474,22 @@ CMakeFiles/asm.dir/argums.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/asm.dir/argums.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ib/cxim/workspace/asmgit/asm/argums.c -o CMakeFiles/asm.dir/argums.c.s
 
+CMakeFiles/asm.dir/checker.c.o: CMakeFiles/asm.dir/flags.make
+CMakeFiles/asm.dir/checker.c.o: ../checker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/asm.dir/checker.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/checker.c.o   -c /Users/ib/cxim/workspace/asmgit/asm/checker.c
+
+CMakeFiles/asm.dir/checker.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/asm.dir/checker.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ib/cxim/workspace/asmgit/asm/checker.c > CMakeFiles/asm.dir/checker.c.i
+
+CMakeFiles/asm.dir/checker.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/asm.dir/checker.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ib/cxim/workspace/asmgit/asm/checker.c -o CMakeFiles/asm.dir/checker.c.s
+
 CMakeFiles/asm.dir/clear_file.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/clear_file.c.o: ../clear_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/asm.dir/clear_file.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/asm.dir/clear_file.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/clear_file.c.o   -c /Users/ib/cxim/workspace/asmgit/asm/clear_file.c
 
 CMakeFiles/asm.dir/clear_file.c.i: cmake_force
@@ -1489,7 +1502,7 @@ CMakeFiles/asm.dir/clear_file.c.s: cmake_force
 
 CMakeFiles/asm.dir/getters.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/getters.c.o: ../getters.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/asm.dir/getters.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/asm.dir/getters.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/getters.c.o   -c /Users/ib/cxim/workspace/asmgit/asm/getters.c
 
 CMakeFiles/asm.dir/getters.c.i: cmake_force
@@ -1502,7 +1515,7 @@ CMakeFiles/asm.dir/getters.c.s: cmake_force
 
 CMakeFiles/asm.dir/main.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/asm.dir/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/asm.dir/main.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/main.c.o   -c /Users/ib/cxim/workspace/asmgit/asm/main.c
 
 CMakeFiles/asm.dir/main.c.i: cmake_force
@@ -1515,7 +1528,7 @@ CMakeFiles/asm.dir/main.c.s: cmake_force
 
 CMakeFiles/asm.dir/parse.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/parse.c.o: ../parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/asm.dir/parse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/asm.dir/parse.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/parse.c.o   -c /Users/ib/cxim/workspace/asmgit/asm/parse.c
 
 CMakeFiles/asm.dir/parse.c.i: cmake_force
@@ -1528,7 +1541,7 @@ CMakeFiles/asm.dir/parse.c.s: cmake_force
 
 CMakeFiles/asm.dir/setters.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/setters.c.o: ../setters.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/asm.dir/setters.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/asm.dir/setters.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/setters.c.o   -c /Users/ib/cxim/workspace/asmgit/asm/setters.c
 
 CMakeFiles/asm.dir/setters.c.i: cmake_force
@@ -1541,7 +1554,7 @@ CMakeFiles/asm.dir/setters.c.s: cmake_force
 
 CMakeFiles/asm.dir/work_w_lable_instrct.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/work_w_lable_instrct.c.o: ../work_w_lable_instrct.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/asm.dir/work_w_lable_instrct.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/asm.dir/work_w_lable_instrct.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/work_w_lable_instrct.c.o   -c /Users/ib/cxim/workspace/asmgit/asm/work_w_lable_instrct.c
 
 CMakeFiles/asm.dir/work_w_lable_instrct.c.i: cmake_force
@@ -1554,7 +1567,7 @@ CMakeFiles/asm.dir/work_w_lable_instrct.c.s: cmake_force
 
 CMakeFiles/asm.dir/work_with_str.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/work_with_str.c.o: ../work_with_str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/asm.dir/work_with_str.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/asm.dir/work_with_str.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/work_with_str.c.o   -c /Users/ib/cxim/workspace/asmgit/asm/work_with_str.c
 
 CMakeFiles/asm.dir/work_with_str.c.i: cmake_force
@@ -1676,6 +1689,7 @@ asm_OBJECTS = \
 "CMakeFiles/asm.dir/ft_printf/srcs/work_with_uxo_part_two.c.o" \
 "CMakeFiles/asm.dir/ft_printf/srcs/work_with_x_big.c.o" \
 "CMakeFiles/asm.dir/argums.c.o" \
+"CMakeFiles/asm.dir/checker.c.o" \
 "CMakeFiles/asm.dir/clear_file.c.o" \
 "CMakeFiles/asm.dir/getters.c.o" \
 "CMakeFiles/asm.dir/main.c.o" \
@@ -1796,6 +1810,7 @@ asm: CMakeFiles/asm.dir/ft_printf/srcs/work_with_uxo_part_one.c.o
 asm: CMakeFiles/asm.dir/ft_printf/srcs/work_with_uxo_part_two.c.o
 asm: CMakeFiles/asm.dir/ft_printf/srcs/work_with_x_big.c.o
 asm: CMakeFiles/asm.dir/argums.c.o
+asm: CMakeFiles/asm.dir/checker.c.o
 asm: CMakeFiles/asm.dir/clear_file.c.o
 asm: CMakeFiles/asm.dir/getters.c.o
 asm: CMakeFiles/asm.dir/main.c.o
@@ -1805,7 +1820,7 @@ asm: CMakeFiles/asm.dir/work_w_lable_instrct.c.o
 asm: CMakeFiles/asm.dir/work_with_str.c.o
 asm: CMakeFiles/asm.dir/build.make
 asm: CMakeFiles/asm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Linking C executable asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ib/cxim/workspace/asmgit/asm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Linking C executable asm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/asm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

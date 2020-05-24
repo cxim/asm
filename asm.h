@@ -93,5 +93,6 @@ void	set_oper_size(t_oper *op);
 t_oper	*set_instrctn(t_data *data, int inst_id, int op_id);
 int 	get_argums(t_oper *op, char **argv, int argc, t_data *data);
 t_data	*get_data(t_data *data);
+void	check_all(t_data *data);
 
 #endif //ASM_ASM_H

@@ -12,6 +12,10 @@ ft_printf/includes/printf.h
 op.h
 /Users/ib/cxim/workspace/asmgit/asm/op.h
 
+/Users/ib/cxim/workspace/asmgit/asm/checker.c
+asm.h
+/Users/ib/cxim/workspace/asmgit/asm/asm.h
+
 /Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/libft/libft.h
 unistd.h
 -
@@ -35,8 +39,4 @@ libft/libft.h
 /Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/libft/libft.h
 
 /Users/ib/cxim/workspace/asmgit/asm/op.h
-
-/Users/ib/cxim/workspace/asmgit/asm/parse.c
-asm.h
-/Users/ib/cxim/workspace/asmgit/asm/asm.h
 
