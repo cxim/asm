@@ -46,16 +46,16 @@ int		main(int argc, char** argv)
 	conversion(data);
 
 //	t_label *tmp = data->label;
-//	t_oper *tm = data->op;
-//	int i;
-//	while (tm)
-//	{
-//		i = -1;
-//		while (++i < 3)
-//			printf("%d %d %d %d", tm->argum_size[i], tm->argum[i], tm->argum_type[i], tm->argum_is_label[i]);
-//		printf("\n");
-//		tm = tm->next;
-//	}
+	t_oper *tm = data->op;
+	int i;
+	while (tm)
+	{
+		i = -1;
+		while (++i < 3)
+			printf("%d %d %d %d", tm->argum_size[i], tm->argum[i], tm->argum_type[i], tm->argum_is_label[i]);
+		printf("\n");
+		tm = tm->next;
+	}
 //	while (tmp)
 //	{
 //		//printf("%s\n", tmp->name, );

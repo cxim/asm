@@ -1,7 +1,8 @@
 .name "zork"
 .comment "I'M ALIIIIVE"
 
-zjmp	%:choocho
+l2:     sti r1, %:live, %1
+        and r1, %0, r1
 
-choochoo:
-	st		r3, 16
+live: live %1
+        zjmp %:live

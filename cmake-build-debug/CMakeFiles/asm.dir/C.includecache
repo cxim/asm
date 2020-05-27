@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/cxim1/asm/ft_printf/includes/libft/ft_strsplit.c
-libft.h
-/home/cxim1/asm/ft_printf/includes/libft/libft.h
+/home/cxim1/asm/asm.h
+ft_printf/includes/printf.h
+/home/cxim1/asm/ft_printf/includes/printf.h
+op.h
+/home/cxim1/asm/op.h
 
 /home/cxim1/asm/ft_printf/includes/libft/libft.h
 unistd.h
@@ -19,4 +21,22 @@ string.h
 -
 fcntl.h
 -
+
+/home/cxim1/asm/ft_printf/includes/printf.h
+stdio.h
+-
+unistd.h
+-
+stdarg.h
+-
+fcntl.h
+-
+libft/libft.h
+/home/cxim1/asm/ft_printf/includes/libft/libft.h
+
+/home/cxim1/asm/main.c
+asm.h
+/home/cxim1/asm/asm.h
+
+/home/cxim1/asm/op.h
 

@@ -142,6 +142,6 @@ cc1:
 
 choochoo:
 	st		r3, 16
-	st		r3, r2
+	st		r3, 16
 cc_live:
 	live	%0

@@ -16,7 +16,7 @@ void	check_size(t_oper *op)
 	{
 		if (op->argum_type[i] < 0)
 			exit(ft_printf("ERROR: negativ type for oper. %d\n", op->unq_id));
-		if (op->argum_type[i] == 0 && (op->argum_type[i] < 1 || op->argum_type[i] > 99))
+		if (op->argum_type[i] == 1 && (op->argum_type[i] < 1 || op->argum_type[i] > 99))
 			exit(ft_printf("ERROR: invalid registr value for op. %d\n", op->unq_id));
 		if (op->argum_type[i] == 1)
 			size++;
