@@ -31,15 +31,18 @@ SRC = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
 					ft_numzero.c ft_print_symbol.c ft_itoa_long.c ft_strsplit_len.c \
 					ft_split.c ft_str_is_num.c ft_isspace.c
 
-FLAGS = gcc -c -Wall -Wextra -Werror
+FLAGS = clang -c -Wall -Wextra -Werror -g
 OBJ = $(SRC:.c=.o)
+HEADER = libft.h
 
 all: $(NAME)
 
-$(NAME):
-	@$(FLAGS) $(SRC)
+$(NAME): $(OBJ)
 	@ar rc $(NAME) $(OBJ)
 	@ranlib $(NAME)
+
+$(OBJ):	%.o: %.c $(HEADER)
+	@$(FLAGS) -c $< -o $@
 
 clean:
 	@/bin/rm -f $(OBJ)

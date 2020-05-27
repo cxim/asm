@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/ib/cxim/workspace/asmgit/asm/asm.h
-ft_printf/includes/printf.h
-/Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/printf.h
-op.h
-/Users/ib/cxim/workspace/asmgit/asm/op.h
+/home/cxim1/asm/ft_printf/includes/libft/ft_strsplit.c
+libft.h
+/home/cxim1/asm/ft_printf/includes/libft/libft.h
 
-/Users/ib/cxim/workspace/asmgit/asm/checker.c
-asm.h
-/Users/ib/cxim/workspace/asmgit/asm/asm.h
-
-/Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/libft/libft.h
+/home/cxim1/asm/ft_printf/includes/libft/libft.h
 unistd.h
 -
 stdlib.h
@@ -25,18 +19,4 @@ string.h
 -
 fcntl.h
 -
-
-/Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/printf.h
-stdio.h
--
-unistd.h
--
-stdarg.h
--
-fcntl.h
--
-libft/libft.h
-/Users/ib/cxim/workspace/asmgit/asm/ft_printf/includes/libft/libft.h
-
-/Users/ib/cxim/workspace/asmgit/asm/op.h
 

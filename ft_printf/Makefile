@@ -10,10 +10,11 @@
 #                                                                              #
 # **************************************************************************** #
 
-C = clang
+CC = clang
 NAME = libftprintf.a
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror -g
 LIBFT = includes/libft
+LIB = includes/libft/libft.a
 DIR_S = srcs
 DIR_O = objs
 HEADER = includes
@@ -51,11 +52,13 @@ SOURCES = ft_printf.c                      \
 SRCS = $(addprefix $(DIR_S)/,$(SOURCES))
 OBJS = $(addprefix $(DIR_O)/,$(SOURCES:.c=.o))
 all: $(NAME)
-$(NAME): $(OBJS)
-	@make -C $(LIBFT)
+$(NAME): $(LIB) $(OBJS)
 	@cp includes/libft/libft.a ./$(NAME)
 	@ar rc $(NAME) $(OBJS)
 	@ranlib $(NAME)
+.FORCE:
+$(LIB): .FORCE
+	@make -C $(LIBFT)
 $(DIR_O)/%.o: $(DIR_S)/%.c
 	@mkdir -p objs
 	@$(CC) $(FLAGS) -I $(HEADER) -o $@ -c $<

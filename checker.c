@@ -4,6 +4,52 @@
 
 #include "asm.h"
 
+void	check_size(t_oper *op)
+{
+	int		size;
+	int		i;
+
+	size = 1;
+	size += (op->octet != 0);
+	i = 0;
+	while (i < MAX_ARG)
+	{
+		if (op->argum_type[i] < 0)
+			exit(ft_printf("ERROR: negativ type for oper. %d\n", op->unq_id));
+		if (op->argum_type[i] == 0 && (op->argum_type[i] < 1 || op->argum_type[i] > 99))
+			exit(ft_printf("ERROR: invalid registr value for op. %d\n", op->unq_id));
+		if (op->argum_type[i] == 1)
+			size++;
+		if (op->argum_type[i] == 2)
+			size += T_DIR_SIZE[op->instrctn_id];
+		else if (op->argum_type[i] == 3)
+			size += 2;
+		i++;
+	}
+	if (size != op->size)
+		exit(ft_printf("ERROR: wrong OPsize, oper. %d\n", op->unq_id));
+}
+
+void    check_lbls(t_oper *op, t_label *lb, int i)
+{
+	t_label		*tmp;
+
+	tmp = lb;
+	if ((op->argum_is_label[i] != 0 && op->argum_type[i] > 0) || (op->argum_is_label[i] == 0 && op->argum_type[i] < 0))
+		exit(ft_printf("ERROR: incompatible arg-lbl combination\n"));
+	else if (op->argum_type[i] < 0)
+		op->argum_type[i] = -op->argum_type[i];
+	while (tmp != NULL && tmp->id != op->argum_type[i])
+		tmp = tmp->next;
+	if (tmp == NULL)
+		exit(ft_printf("ERROR: label %d for oper. %d not found!\n", op->argum_is_label[i], op->unq_id));
+	if (tmp->pozz == -1)
+		exit(ft_printf("ERROR: label %s not found!\n", tmp->name));
+	op->argum[i] = tmp->pozz - op->pozz;
+	if (op->argum_type[i] == 1 && (op->argum_type[i] > 99 || op->argum[i] < 1))
+		exit(ft_printf("ERROR: oper %d arg %d is reg %d - invalid", op->unq_id, i, op->argum[i]));
+}
+
 void	check_arg(t_oper *op, t_label *label)
 {
 	int 	i;
@@ -23,8 +69,8 @@ void	check_arg(t_oper *op, t_label *label)
 	while (i > 0)
 	{
 		i--;
-//		if (op->argum_type[i] < 0 || op->argum_is_label[i] != 0)
-//			check_lbls(op, label, i);
+		if (op->argum_type[i] < 0 || op->argum_is_label[i] != 0)
+			check_lbls(op, label, i);
 		if ((allowed % 10) != 0 && ((allowed % 10) & (op->argum_type[i] + (op->argum_type[i] > 2))) == 0)
 			exit(ft_printf("ERROR: invalid arg type\n"));
 		allowed /= 10;
@@ -65,7 +111,7 @@ void	check_all(t_data *data)
 		check_op(data, op);
 		label = data->label;
 		check_arg(op, label);
-		//check_size(op);
+		check_size(op);
 		op = op->next;
 	}
 }

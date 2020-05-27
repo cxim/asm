@@ -17,13 +17,13 @@ char		**ft_strsplit(char const *s, char c)
 	char	**table;
 	int		size;
 	int		i;
-	int		substr_len;
+	size_t		substr_len;
 
 	if (!s)
 		return (0);
 	size = ft_word_count(s, c);
 	i = 0;
-	if (!(table = (char **)malloc((sizeof(char *) * size + 1))))
+	if (!(table = (char **)malloc((sizeof(char *) * (size + 1)))))
 		return (NULL);
 	while (size--)
 	{

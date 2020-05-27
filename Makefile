@@ -12,10 +12,10 @@ all: $(NAME)
 
 $(NAME): $(OBJECTS)
 	make -C $(LIBFT)
-	gcc -o $(NAME) $(OBJECTS) $(LIB)
+	clang -o $(NAME) $(OBJECTS) $(LIB) -g
 
 $(OBJECTS):	%.o: %.c
-	gcc $(C_FLAGS) $(HEADER) -o $@ -c $<
+	clang $(C_FLAGS) $(HEADER) -o $@ -c $<
 
 clean:
 	/bin/rm -f $(OBJECTS)
