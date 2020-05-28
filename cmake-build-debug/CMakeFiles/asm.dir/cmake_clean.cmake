@@ -116,6 +116,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/asm.dir/setters.c.o"
   "CMakeFiles/asm.dir/work_w_lable_instrct.c.o"
   "CMakeFiles/asm.dir/work_with_str.c.o"
+  "CMakeFiles/asm.dir/writer.c.o"
   "asm"
   "asm.pdb"
 )

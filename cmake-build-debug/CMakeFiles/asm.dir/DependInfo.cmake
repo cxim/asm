@@ -121,6 +121,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/cxim1/asm/setters.c" "/home/cxim1/asm/cmake-build-debug/CMakeFiles/asm.dir/setters.c.o"
   "/home/cxim1/asm/work_w_lable_instrct.c" "/home/cxim1/asm/cmake-build-debug/CMakeFiles/asm.dir/work_w_lable_instrct.c.o"
   "/home/cxim1/asm/work_with_str.c" "/home/cxim1/asm/cmake-build-debug/CMakeFiles/asm.dir/work_with_str.c.o"
+  "/home/cxim1/asm/writer.c" "/home/cxim1/asm/cmake-build-debug/CMakeFiles/asm.dir/writer.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

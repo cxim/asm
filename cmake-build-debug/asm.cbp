@@ -445,6 +445,9 @@
 		<Unit filename="/home/cxim1/asm/work_with_str.c">
 			<Option target="asm"/>
 		</Unit>
+		<Unit filename="/home/cxim1/asm/writer.c">
+			<Option target="asm"/>
+		</Unit>
 		<Unit filename="/home/cxim1/asm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

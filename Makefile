@@ -1,6 +1,6 @@
 C_FLAGS =  -I
 NAME = asm
-SRCS = main.c parse.c clear_file.c getters.c work_with_str.c work_w_lable_instrct.c setters.c argums.c checker.c
+SRCS = main.c parse.c clear_file.c getters.c work_with_str.c work_w_lable_instrct.c setters.c argums.c checker.c writer.c
 ##-Wall -Werror -Wextra
 OBJECTS = $(SRCS:.c=.o)
 LIBFT = ft_printf/

@@ -4,6 +4,23 @@
 
 #include "asm.h"
 
+char	*set_name_file(char *str)
+{
+	char 	*name;
+	char	**tmp;
+
+	if (ft_strlen(str) < 1)
+		exit(ft_printf("ERROR: output file not defined!\n"));
+	tmp = ft_strsplit(str, '.');
+	if (ft_strlen(tmp[0]) > 0)
+		name = ft_strjoin(tmp[0], ".cor");
+	else
+		name = ft_strdup(".cor");
+	if (ft_strlen(tmp[0]) < 1)
+		exit(ft_printf("ERROR: output name file could`t be set\n"));
+	free_str(NULL, &tmp, 0);
+	return (name);
+}
 
 t_data	*get_data(t_data *data)
 {
@@ -46,23 +63,30 @@ int		main(int argc, char** argv)
 	conversion(data);
 
 //	t_label *tmp = data->label;
-	t_oper *tm = data->op;
-	int i;
-	while (tm)
-	{
-		i = -1;
-		while (++i < 3)
-			printf("%d %d %d %d", tm->argum_size[i], tm->argum[i], tm->argum_type[i], tm->argum_is_label[i]);
-		printf("\n");
-		tm = tm->next;
-	}
+//	t_oper *tm = data->op;
+//	int i;
+//	while (tm)
+//	{
+//		i = -1;
+//		while (++i < 3)
+//			printf("%d %d %d %d", tm->argum_size[i], tm->argum[i], tm->argum_type[i], tm->argum_is_label[i]);
+//		printf("\n");
+//		tm = tm->next;
+//	}
 //	while (tmp)
 //	{
 //		//printf("%s\n", tmp->name, );
 //		tmp = tmp->next;
 //	}
 	check_all(data);
-
-	exit(123);
+	f_name = set_name_file(argv[argc - 1]);
+	data->fd_w = open(f_name, O_WRONLY | O_TRUNC | O_CREAT, 0644);
+	if (data->fd_w < 3)
+		exit(ft_printf("ERROR: file %s not created\n", f_name));
+	write_file(data);
+	ft_printf("writing output program to %s\n", f_name);
+	free(f_name);
+	close(data->fd_r);
+	close(data->fd_w);
 	return (0);
 }

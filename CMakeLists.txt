@@ -128,4 +128,4 @@ add_executable(asm
     parse.c
     setters.c
     work_w_lable_instrct.c
-    work_with_str.c)
+    work_with_str.c writer.c)

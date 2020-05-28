@@ -3282,6 +3282,33 @@ work_with_str.c.s:
 	$(MAKE) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/work_with_str.c.s
 .PHONY : work_with_str.c.s
 
+writer.o: writer.c.o
+
+.PHONY : writer.o
+
+# target to build an object file
+writer.c.o:
+	$(MAKE) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/writer.c.o
+.PHONY : writer.c.o
+
+writer.i: writer.c.i
+
+.PHONY : writer.i
+
+# target to preprocess a source file
+writer.c.i:
+	$(MAKE) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/writer.c.i
+.PHONY : writer.c.i
+
+writer.s: writer.c.s
+
+.PHONY : writer.s
+
+# target to generate assembly for a file
+writer.c.s:
+	$(MAKE) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/writer.c.s
+.PHONY : writer.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -3642,6 +3669,9 @@ help:
 	@echo "... work_with_str.o"
 	@echo "... work_with_str.i"
 	@echo "... work_with_str.s"
+	@echo "... writer.o"
+	@echo "... writer.i"
+	@echo "... writer.s"
 .PHONY : help
 
 
