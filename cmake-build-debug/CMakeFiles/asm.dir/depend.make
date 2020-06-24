@@ -409,3 +409,9 @@ CMakeFiles/asm.dir/work_with_str.c.o: ../ft_printf/includes/printf.h
 CMakeFiles/asm.dir/work_with_str.c.o: ../op.h
 CMakeFiles/asm.dir/work_with_str.c.o: ../work_with_str.c
 
+CMakeFiles/asm.dir/writer.c.o: ../asm.h
+CMakeFiles/asm.dir/writer.c.o: ../ft_printf/includes/libft/libft.h
+CMakeFiles/asm.dir/writer.c.o: ../ft_printf/includes/printf.h
+CMakeFiles/asm.dir/writer.c.o: ../op.h
+CMakeFiles/asm.dir/writer.c.o: ../writer.c
+

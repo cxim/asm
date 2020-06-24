@@ -48,6 +48,36 @@ void	conversion(t_data *data)
 	free_str(&s, NULL, 1);
 }
 
+void 	free_lst(t_data *data)
+{
+	t_label *tmp;
+	t_oper  *tmp2;
+
+	if (data->label)
+	{
+		while (data->label)
+		{
+			free(data->label->name);
+			tmp = data->label;
+			data->label = data->label->next;
+			free(tmp);
+		}
+		free(data->label);
+	}
+	if (data->op)
+	{
+		while (data->op)
+		{
+			tmp2 = data->op;
+			data->op = data->op->next;
+			free(tmp2);
+		}
+	}
+	free(data->name);
+	free(data->comment);
+	free(data);
+}
+
 int		main(int argc, char** argv)
 {
 	char 	*f_name;
@@ -88,5 +118,6 @@ int		main(int argc, char** argv)
 	free(f_name);
 	close(data->fd_r);
 	close(data->fd_w);
+	free_lst(data);
 	return (0);
 }

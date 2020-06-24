@@ -53,7 +53,7 @@ void 	write_op(int fd, t_oper *op)
 	unsigned char	c;
 	int 			i;
 
-	c = (unsigned char)op->octet;
+	c = (unsigned char)op->instrctn_id;
 	write_rev(fd, (unsigned char*)(&c), sizeof(c));
 	if (op->octet != 0)
 	{
