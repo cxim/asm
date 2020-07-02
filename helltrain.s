@@ -141,7 +141,7 @@ cc1:
 	zjmp	%:choochoo
 
 choochoo:
-	st		r3, 16
-	st		r3, 16
+	st		r2, 15
+	st		r3, -1
 cc_live:
 	live	%0

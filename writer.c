@@ -28,7 +28,7 @@ void 	write_n_and_c(int fd, char *str, unsigned len_macro)
 void 	select_type(int fd, t_oper *op, int arg_n)
 {
 	unsigned char	c;
-	unsigned char 	s;
+	unsigned short 	s;
 	unsigned char 	i;
 
 	if (op->argum_type[arg_n] == 1)
@@ -43,7 +43,7 @@ void 	select_type(int fd, t_oper *op, int arg_n)
 	}
 	else
 	{
-		s = (unsigned char)op->argum[arg_n];
+		s = (unsigned short )op->argum[arg_n];
 		write_rev(fd, (unsigned char*)(&s), sizeof(s));
 	}
 }

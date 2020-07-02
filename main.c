@@ -108,6 +108,7 @@ int		main(int argc, char** argv)
 //		//printf("%s\n", tmp->name, );
 //		tmp = tmp->next;
 //	}
+
 	check_all(data);
 	f_name = set_name_file(argv[argc - 1]);
 	data->fd_w = open(f_name, O_WRONLY | O_TRUNC | O_CREAT, 0644);
